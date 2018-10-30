@@ -1,0 +1,294 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+}
+
+.hero .container-fluid { 
+    position: relative;
+        background: url(../images/tschudy-hero-bkgd-2x.jpg) center center;
+        width: 100%;
+        height: 639px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0px;
+        margin: 0px;
+}
+
+.container p {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "Hello";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    color: #FFC119;
+
+}
+
+.navbar {
+    background: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.navbar-brand img {
+    width: 50%;
+}
+
+.navbar a {
+    color: #FFC119;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar-nav {
+    margin-left: auto !important;
+}
+
+.jumbotron {
+    background: none;
+}
+
+.jumbotron .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.jumbotron h1 {
+    font-family: 'Tulpen One', cursive;
+    text-align: center;
+    font-size: 64px;
+    color: #fff;
+    margin-top: 4rem;
+}
+
+.jumbotron p {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: transparent;
+    color: #FFC119;
+    font-family: 'Raleway', sans-serif;
+    border: #FFC119 solid 1px;
+    border-radius: 2rem;
+    padding: 15px 30px;
+    width: 240px;
+    height: 58px;
+    margin: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #FFC119;
+    color: #2C281E;
+    font-family: 'Raleway', sans-serif;
+    border: #FFC119 solid 1px;
+    border-radius: 2rem;
+    padding: 15px 30px;
+    width: 240px;
+    height: 58px;
+}
+
+.btn-primary:active {
+    background-color: #fff !important;
+    color: #2c281e;
+    font-family: 'Raleway', sans-serif;
+    border: #FFC119 solid 1px !important;
+    border-radius: 2rem;
+    padding: 15px 30px;
+    width: 240px;
+    height: 58px;
+}
+
+.projects h2 {
+    font-family: 'Tulpen One', cursive;
+    text-align: center;
+    font-size: 48px;
+    color: #2c281e;
+    margin: 4rem 2rem 2rem 2rem;
+    padding: 1rem;
+}
+
+.btn-secondary {
+    background-color: #FFC119;
+    color: #2C281E;
+    font-family: 'Raleway', sans-serif;
+    border: #FFC119 solid 1px;
+    border-radius: 2rem;
+    padding: 15px 30px;
+    width: 240px;
+    height: 58px;
+    margin: 1.5rem 0rem;
+    
+}
+
+.btn-secondary:hover {
+    background-color: transparent;
+    color: #FFC119;
+    font-family: 'Raleway', sans-serif;
+    border: #FFC119 solid 1px;
+    border-radius: 2rem;
+    padding: 15px 30px;
+    width: 240px;
+    height: 58px;
+    margin: 1.5rem 0rem;
+}
+
+.btn-secondary:active {
+    background-color: #fff !important;
+    color: #2c281e;
+    font-family: 'Raleway', sans-serif;
+    border: #FFC119 solid 1px !important;
+    border-radius: 2rem;
+    padding: 15px 30px;
+    width: 240px;
+    height: 58px;
+    margin: 1.5rem 0rem;
+}
+
+.about .jumbotron {
+    background-color: #FFC119;
+    color: #2c281e;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.card {
+    border: none;
+    padding: 4rem 1rem;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.card h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.card p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.card-body {
+    margin: auto;
+}
+
+@media (max-width: 992px) {
+    
+    .card {
+        border: none;
+        padding: 1rem 1rem;
+    }
+    
+    .card-body {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .card h5 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .card p {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+    }
+    
+    .card-img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+} 
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FFB469;
+    text-align: center;
+    padding-bottom: 4rem;
+    margin-bottom: 1rem;
+
+}
+
+.about h2 {
+    font-family: 'Tulpen One', cursive;
+    text-align: center;
+    font-size: 48px;
+    color: #2c281e;
+    margin: 4rem 2rem 2rem 2rem;
+    padding: 1rem;
+}
+
+
+.about-img {
+    margin-bottom: 2rem;
+    width: 280px;
+    height: 280px;
+}
+
+.about p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact {
+    background-color: #2C281E;
+    margin-top: 3rem;
+    padding: 30px;
+}
+
+.contact h2 {
+    font-family: 'Tulpen One', cursive;
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    padding: 4rem 2rem 2rem 2rem;
+}
+
+.row svg {
+    height: 40px;
+    margin: 0 auto;
+}
+.centerMe {
+    text-align: center;
+}
+.displayInline {
+    display: inline;
+}
